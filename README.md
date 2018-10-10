@@ -34,11 +34,11 @@ All values are treated as categorical, even if they are continous numericals.
 where, p(i) is the probability of the value i or count of i / length of data series
 
 ### Parameters
-data_series: list or numpy 1d array or pandas series
+#### data_series: list or numpy 1d array or pandas series
     
    The main data series
 
-remove_missing: bool, optional default=True
+#### remove_missing: bool, optional default=True
     
    If True, removes all the missing values from data and proceeds to computing entropy
    If False, treats missing values (nan) as a separate class and computes entropy
